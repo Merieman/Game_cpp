@@ -1,0 +1,5 @@
+﻿  test_game.cpp
+C:\Users\marya\source\repos\test_game\test_game\Menu.h(46,41): warning C4244: 'argument' : conversion de 'size_t' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+  test_game.vcxproj -> C:\Users\marya\source\repos\test_game\x64\Debug\test_game.exe

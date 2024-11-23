@@ -1,0 +1,62 @@
+﻿  test_game.cpp
+C:\Users\marya\source\repos\test_game\test_game\Menu.h(44,41): warning C4244: 'argument' : conversion de 'size_t' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(61,66): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(61,48): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(68,43): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(68,33): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(74,49): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\SnakeGame.cpp(74,34): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\BatailleNavale.cpp(48,55): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\BatailleNavale.cpp(48,38): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\TicTacToe.cpp(36,27): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+C:\Users\marya\source\repos\test_game\test_game\TicTacToe.cpp(37,29): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  (compiler le fichier source 'test_game.cpp')
+  
+test_game.obj : error LNK2005: "public: virtual void __cdecl Pendu::lancer(class sf::RenderWindow &)" (?lancer@Pendu@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans Pendu.obj
+test_game.obj : error LNK2005: "public: __cdecl Pendu::Pendu(void)" (??0Pendu@@QEAA@XZ) déjà défini(e) dans Pendu.obj
+test_game.obj : error LNK2005: "public: virtual void __cdecl PierrePapierCiseaux::lancer(class sf::RenderWindow &)" (?lancer@PierrePapierCiseaux@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans PierrePapierCiseaux.obj
+test_game.obj : error LNK2005: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl PierrePapierCiseaux::obtenirResultat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?obtenirResultat@PierrePapierCiseaux@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@0@Z) déjà défini(e) dans PierrePapierCiseaux.obj
+test_game.obj : error LNK2005: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl PierrePapierCiseaux::obtenirChoixOrdinateur(void)" (?obtenirChoixOrdinateur@PierrePapierCiseaux@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) déjà défini(e) dans PierrePapierCiseaux.obj
+test_game.obj : error LNK2005: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl PierrePapierCiseaux::convertirEnMinuscule(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?convertirEnMinuscule@PierrePapierCiseaux@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z) déjà défini(e) dans PierrePapierCiseaux.obj
+test_game.obj : error LNK2005: "public: __cdecl PierrePapierCiseaux::PierrePapierCiseaux(void)" (??0PierrePapierCiseaux@@QEAA@XZ) déjà défini(e) dans PierrePapierCiseaux.obj
+test_game.obj : error LNK2005: "public: virtual void __cdecl DevinerMot::lancer(class sf::RenderWindow &)" (?lancer@DevinerMot@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans DevinerMot.obj
+test_game.obj : error LNK2005: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl DevinerMot::ajusterTexte(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,class sf::Font &,unsigned int)" (?ajusterTexte@DevinerMot@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@IAEAVFont@sf@@I@Z) déjà défini(e) dans DevinerMot.obj
+test_game.obj : error LNK2005: "public: __cdecl DevinerMot::DevinerMot(void)" (??0DevinerMot@@QEAA@XZ) déjà défini(e) dans DevinerMot.obj
+test_game.obj : error LNK2005: "public: virtual void __cdecl DevinerNombre::lancer(class sf::RenderWindow &)" (?lancer@DevinerNombre@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans DevinerNombre.obj
+test_game.obj : error LNK2005: "public: __cdecl DevinerNombre::DevinerNombre(void)" (??0DevinerNombre@@QEAA@XZ) déjà défini(e) dans DevinerNombre.obj
+test_game.obj : error LNK2005: "public: virtual void __cdecl BatailleNavale::lancer(class sf::RenderWindow &)" (?lancer@BatailleNavale@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: void __cdecl BatailleNavale::afficherTexte(class sf::RenderWindow &)" (?afficherTexte@BatailleNavale@@AEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: bool __cdecl BatailleNavale::tirer(int,int)" (?tirer@BatailleNavale@@AEAA_NHH@Z) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: void __cdecl BatailleNavale::afficherGrille(class sf::RenderWindow &)" (?afficherGrille@BatailleNavale@@AEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: bool __cdecl BatailleNavale::verifierVictoire(void)" (?verifierVictoire@BatailleNavale@@AEAA_NXZ) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: void __cdecl BatailleNavale::placerNavires(void)" (?placerNavires@BatailleNavale@@AEAAXXZ) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "private: void __cdecl BatailleNavale::initialiserGrille(void)" (?initialiserGrille@BatailleNavale@@AEAAXXZ) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "public: __cdecl BatailleNavale::BatailleNavale(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0BatailleNavale@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) déjà défini(e) dans BatailleNavale.obj
+test_game.obj : error LNK2005: "public: virtual void __cdecl SnakeGame::lancer(class sf::RenderWindow &)" (?lancer@SnakeGame@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans SnakeGame.obj
+test_game.obj : error LNK2005: "private: void __cdecl SnakeGame::deplacerSerpent(void)" (?deplacerSerpent@SnakeGame@@AEAAXXZ) déjà défini(e) dans SnakeGame.obj
+test_game.obj : error LNK2005: "public: __cdecl SnakeGame::SnakeGame(void)" (??0SnakeGame@@QEAA@XZ) déjà défini(e) dans SnakeGame.obj
+TicTacToe.obj : error LNK2005: "private: bool __cdecl TicTacToe::estEgalite(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > > const &)" (?estEgalite@TicTacToe@@AEAA_NAEBV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@@Z) déjà défini(e) dans test_game.obj
+TicTacToe.obj : error LNK2005: "private: char __cdecl TicTacToe::verifierGagnant(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > > const &)" (?verifierGagnant@TicTacToe@@AEAADAEBV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@@Z) déjà défini(e) dans test_game.obj
+TicTacToe.obj : error LNK2005: "public: virtual void __cdecl TicTacToe::lancer(class sf::RenderWindow &)" (?lancer@TicTacToe@@UEAAXAEAVRenderWindow@sf@@@Z) déjà défini(e) dans test_game.obj
+TicTacToe.obj : error LNK2005: "public: __cdecl TicTacToe::TicTacToe(void)" (??0TicTacToe@@QEAA@XZ) déjà défini(e) dans test_game.obj
+C:\Users\marya\source\repos\test_game\x64\Release\test_game.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés
